@@ -1,6 +1,7 @@
 # docker-qtum-raspberry-pi
 Docker image that runs the QTUM qtumd node in a container on Raspberry Pi for easy QTUM staking.
-This repository is fork of [trick77's excellent x86 repo](https://github.com/trick77/docker-qtum-stake)
+
+This repository is fork of [trick77's excellent x86 repo](https://github.com/trick77/docker-qtum-stake)!
 
 Just want to run a full node without staking? Please see the instructions below.
 
