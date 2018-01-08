@@ -1,12 +1,11 @@
-# docker-qtum-stake
-
-Docker image that runs the QTUM qtumd node in a container for easy QTUM staking.
+# docker-qtum-raspberry-pi
+Docker image that runs the QTUM qtumd node in a container on Raspberry Pi for easy QTUM staking.
+This repository is fork of [trick77's excellent x86 repo](https://github.com/trick77/docker-qtum-stake)
 
 Just want to run a full node without staking? Please see the instructions below.
 
 ## Requirements
-- Docker in a x86_64 environment
-- Python's docker-compose
+- Docker and Docker Compose installed on a Raspberry Pi
 - Since QTUM is PoS you also need coins in order to stake
 - The ability to remember a passphrase for your QTUM wallet
 
