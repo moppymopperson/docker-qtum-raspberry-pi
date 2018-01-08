@@ -1,4 +1,5 @@
 FROM resin/rpi-raspbian:latest
+MAINTAINER MoppyMopperson
 
 RUN apt-get update \
 	&& DEBIAN_FRONTEND=noninteractive apt-get install -qq --no-install-recommends wget ca-certificates \
